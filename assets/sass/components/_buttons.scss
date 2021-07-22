@@ -1,0 +1,47 @@
+//COMPONENTES BOTONES
+
+@mixin button() {
+
+  font-family: $raleway;
+  font-size: $medium;
+  font-weight: $bold;
+  border: 1px solid $smoky-black;
+  color: $smoky-black;
+  background-color: transparent;
+  padding: 0;
+
+}
+
+  .button-small {
+  @include button();
+  width: 96px;
+  height: 30px;
+}
+
+.button-normal {
+@include button();
+width: 135px;
+height: 42px;
+}
+
+
+@mixin button-hover {
+  font-family: $raleway;
+  font-size: $medium;
+  font-weight: 400;
+  border: 1px solid $isabelline;
+  color: $smoky-black;
+  background-color: transparent;
+
+}
+
+
+@mixin button-focus {
+  font-family: $raleway;
+  font-size: $medium;
+  font-weight: 400;
+  border: 1px solid $isabelline;
+  color: $isabelline;
+  background-color: transparent;
+
+}

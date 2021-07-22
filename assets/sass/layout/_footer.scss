@@ -1,0 +1,90 @@
+@media only screen and (min-width: 1024px){
+.row {
+  display: flex;
+}
+.row__box3 {
+    display: inline-block;
+    background-color: $smoky-black;
+    color: $white;
+    padding-left: 4rem;
+    padding-top: 2rem;
+    width: 26rem;
+    height: 14rem;
+    line-height : 3rem;
+}
+.row__texto-vertical-1 {
+    writing-mode: vertical-lr;
+    padding-left: 0;
+    padding-top: 4rem;
+ }
+.row__email {
+    font-family: $raleway;
+    font-size: $small;
+    color: $smoky-black;
+    height: 2rem;
+    width: 17rem;
+   }
+ }
+@media only screen and (max-width: 768px){
+  .row {
+    display: flex;
+  }
+  .row__box3 {
+      display: inline-block;
+      background-color: $smoky-black;
+      color: $white;
+      padding-left: 4rem;
+      padding-top: 2rem;
+      width: 26rem;
+      height: 14rem;
+      line-height : 3rem;
+  }
+  .row__texto-vertical-1 {
+      writing-mode: vertical-lr;
+      //padding-left: 2rem;
+      padding-top: 4rem;
+      top: -13rem;
+      padding-left: 45rem;
+
+   }
+
+   .col-md-6 {
+     flex: 0 0 50%;
+     max-width: 108%;
+}
+  .row__email {
+      font-family: $raleway;
+      font-size: $small;
+      color: $smoky-black;
+      height: 2rem;
+      width: 33rem;
+     }
+}
+@media only screen and (max-width: 375px){
+  .row {
+    display: flex;
+  }
+  .row__box3 {
+      display: inline-block;
+      background-color: $smoky-black;
+      color: $white;
+      padding-left: 3rem;
+      padding-top: 2rem;
+      width: 21rem;
+      height: 14rem;
+      line-height: 3rem;
+  }
+  .row__texto-vertical-1 {
+      writing-mode: vertical-lr;
+      padding-left: 2rem;
+      top: -13rem;
+      padding-left: 21.6rem;
+   }
+  .row__email {
+      font-family: $raleway;
+      font-size: $small;
+      color: $smoky-black;
+      height: 2rem;
+      width: 17rem;
+     }
+}

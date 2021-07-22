@@ -1,0 +1,40 @@
+body {
+  margin: auto;
+  padding: 0;
+  background-image:url(../img/imagen1.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: right;
+}
+@media only screen and (min-width: 1024px){
+  body {
+    margin: auto;
+    padding: 0;
+    background-image:url(../img/imagen1.png);
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: right;
+  }
+}
+
+@media only screen and (max-width: 768px){
+  body {
+    width: 100%;
+    margin: auto;
+    padding: 0;
+    background-image:url(../img/imagen1.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 1px 66px;
+  }
+}
+
+@media only screen and (max-width: 375px){
+  body {
+    background-image:url(../img/imagen1.png);
+    background-repeat: no-repeat;
+    background-size: 102%;
+    background-position: 1px 66px;
+  }
+
+}

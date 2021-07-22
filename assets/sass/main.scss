@@ -1,0 +1,22 @@
+//MANIFIESTO ARCHIVO SASS
+
+@import
+  'abstracts/variables';
+  
+
+@import
+  'vendors/bootstrap-4.6.0/bootstrap';
+
+@import
+  'base/base',
+  'base/reset',
+  'base/typography';
+
+@import
+  'layout/grid',
+  'layout/header',
+  'layout/footer';
+
+@import
+  'components/buttons',
+  'components/navigation';
